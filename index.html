@@ -1,0 +1,72 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+<body>
+    <h1>Search your movie</h1>
+    <div>
+        <input id = "movieName" type="text">
+        <button onclick="search()">Search</button>
+    </div>
+   
+    <div>
+        <img id = "image" src="" alt="">
+        <h3 id="plot"></h3>
+        <h3 id="year"></h3>
+       <h3 id="title"></h3>
+       
+       <h3 id="cast"></h3>
+       <h3 id="director"></h3>
+       
+       <h3 id="language"></h3>
+       <h3 id="rating"></h3>
+       
+    </div>
+</body>
+<script src="index.js"></script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+<body>
+    <header>
+        <h2>Search your movie</h2>
+        <div class="search-container">
+            <input id="movieName" type="text" placeholder="Search for a movie">
+            <button onclick="search()">Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="movie-info-container">
+            <div class="movie-image-container">
+                <img id="image" src="" alt="">
+            </div>
+            <div class="movie-details-container">
+                <h2 id="title"></h2>
+                <div class="movie-info">
+                    <p> <span id="plot"></span></p>
+                    <p> <span id="year"></span></p>
+                    <p> <span id="cast"></span></p>
+                    <p> <span id="director"></span></p>
+                    <p> <span id="language"></span></p>
+                    <p> <span id="rating"></span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
